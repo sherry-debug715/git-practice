@@ -1,0 +1,45 @@
+h1 {
+    background-image: linear-gradient(rgba(0, 0, 255, 0.2), rgba(0, 0, 0, 0.2)),
+    url("https://placeimg.com/640/480/tech");
+    background-size: cover;
+    padding: 10%;
+    width: 100%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin: 20px;
+    /* width: 600px; */
+    padding: 1em;
+}
+
+.main {
+    margin: 0 auto 10px;
+}
+
+input, select {
+    width: 300px;
+}
+
+label.label {
+    display: inline-block;
+    width: 54px;
+    text-align: right;
+
+fieldset {
+    border: 0;
+}
+
+textarea {
+    vertical-align: top;
+    height: 200px;
+    width: 425px;
+    font-family: Arial, Helvetica, sans-serif;
+}

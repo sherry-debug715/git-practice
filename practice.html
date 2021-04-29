@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="practice.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>This is daily practice</h1>
+    </header>
+
+    <div id="total">
+        <form method="post" action="/fake.html">
+            <div class="main">
+                <label for="name" class="label">Name</label>
+                <input id="name" type="text" name="nameinput">
+            </div>
+            <div class="main">
+                <label for="age" class="label">Age</label>
+                <input id="age" type="number" name="ageinput">
+            </div>
+            <div class="main">
+                <label for="gender" class="label">Gender</label>
+                    <select id="gender" name="genderselect">
+                        <option value="">--please select your gender--</option>
+                        <option value="female">Female</option>
+                        <option value="male">Male</option>
+                    </select>
+            </div>
+
+            <label for="textarea">Something about you</label><br>
+            <textarea id="textarea" name="textinput"></textarea>
+            <div>
+                <button type="submit">Submit your form</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

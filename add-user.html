@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>User Content</title>
+        <link rel="stylesheet" href="add-user.css">
+    </head>
+
+    <body>
+
+        <main>
+            <form method="post" action="/fake.html">
+                <fieldset>
+                    <legend>Add User</legend>
+                    <div>
+                        <label for="fname">First Name</label>
+                        <input id="fname" type="text" name="fnameinput">
+                    </div>
+                    <div>
+                        <label for="lname">Last Name</label>
+                        <input id="lname" type="text" name="lnameinput">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="emailinput">
+                    </div>
+                    <div>
+                    <label for="role">Role</label>
+                        <select id="role" name="role">
+                            <option value="">--Please Select Your Role--</option>
+                            <option value="Admin">Admin</option>
+                            <option value="User">User</option>
+                            <option value="Guest">Guest</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="date">Expiration</label>
+                        <input id="date" type="date" name="expiration-date">
+                    </div>
+                    <div>
+                        <label for="comment">Bio</label>
+                        <textarea id="comment" name="bio">
+                        </textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Add this person</button>
+                    </div>
+                </fieldset>
+
+
+
+
+
+
+
+
+            </form>
+        </main>
+    </body>
+
+</html>
